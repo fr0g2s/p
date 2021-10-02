@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T08:34:12.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6-J3MBhYK2L7pxlBCd_t" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-02T08:56:49.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_45PzFZYL2NYEkiEg9tz" version="15.4.1" type="github">
   <diagram id="o_u66sS629HOIzEhSAqR" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,6 +70,15 @@
         </mxCell>
         <mxCell id="cuORQ5B1R6Ljx33xVvXr-19" value="int &amp;amp;target_value" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuORQ5B1R6Ljx33xVvXr-20" value="struct GENE" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="670" y="90" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cuORQ5B1R6Ljx33xVvXr-22" value="int n[3] // 유전체" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cuORQ5B1R6Ljx33xVvXr-20">
+          <mxGeometry y="30" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cuORQ5B1R6Ljx33xVvXr-23" value="int fit // 적합도" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cuORQ5B1R6Ljx33xVvXr-20">
+          <mxGeometry y="50" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
