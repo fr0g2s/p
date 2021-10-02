@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T08:49:38.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nOELc_hscaJ2E5u0EvpZ" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-02T08:57:39.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Op6hREydMwSkCIA6MOAa" version="15.4.1" type="github">
   <diagram id="n3VAPkxUS_edvvYKPWDh" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,15 @@
         </mxCell>
         <mxCell id="EVrD3dd94230WPvrSxTt-8" value=": loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EVrD3dd94230WPvrSxTt-11" value="struct GENE" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EVrD3dd94230WPvrSxTt-12" value="int n[3] // 유전체" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="EVrD3dd94230WPvrSxTt-11">
+          <mxGeometry y="30" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EVrD3dd94230WPvrSxTt-13" value="int fit // 적합도" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="EVrD3dd94230WPvrSxTt-11">
+          <mxGeometry y="50" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
