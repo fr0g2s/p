@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy
 import requests as req
-
+ 
 
 
 # 각 칸 RGB의 값은 R==G==B 임. 그래서 각 칸의 R값을 들고와 아스키 코드로 바꿔보는게 아이디어임.
