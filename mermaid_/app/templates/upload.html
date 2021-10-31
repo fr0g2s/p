@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title %}citymap file upload{% endblock %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="uplaod-form">
+	도시 정보 파일을 업로드 해주세요.
+    <form method="POST" action="upload" enctype="multipart/form-data">
+        <div>
+            text file: <input type="file" name="file"/>
+            <input type="submit"/>
+        </div>
+    </form>
+    {% for message in get_flashed_messages() %}
+        <div class=flash> {{ message }} </div>
+    {% endfor %}
+    {% if error %}
+        <div class=error>Error: {{ error }}</div>
+    {% endif %}
+</div>
+{% endblock %}

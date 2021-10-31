@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %} city map view {% endblock %}
+{% block head %}
+	{{ super() }}
+{% endblock %}
+
+{% block content %}
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<div class="bin-list">
+    <h3> = file list = </h3>
+    {% for filename in filelist %}
+    {% if target == filename %}
+        <b><a href={{ url_for('view')+'?file='+filename }}>{{ filename }}</a></b><br>
+    {% else %}
+        <a href={{ url_for('view')+'?file='+filename }}>{{ filename }}</a><br>
+    {% endif %}
+    {% endfor %}
+	
+	{% if cityinfo %}
+	<div class='mermaid'>
+		graph TD
+		{% for city in cityinfo %}
+			{{ city[0] }}---{{ city[1] }}	
+		{% endfor %}	
+	</div>
+	{% endif %}
+</div>
+{% endblock %}
